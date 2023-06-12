@@ -163,7 +163,7 @@
     </build>
 	 <repositories>
     <repository>
-        <id>my</id>
+        <id>NEXUS-GRP-REPO</id>
         <url>http://3.110.177.85:8081/repository/my</url>
     </repository>
 </repositories>
