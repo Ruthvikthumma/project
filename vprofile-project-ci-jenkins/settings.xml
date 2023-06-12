@@ -5,22 +5,22 @@
 
   <servers>
     <server>
-      <id>${SNAP-REPO}</id>
+      <id>snapshot-repo</id>
       <username>admin</username>
       <password>password</password>
     </server>
     <server>
-      <id>${RELEASE-REPO}</id>
-      <username>admin</username>
-      <password>password</password>
-    </server>
-        <server>
-        <id>${CENTRAL-REPO}</id>
+      <id>release-repo</id>
       <username>admin</username>
       <password>password</password>
     </server>
     <server>
-        <id>my</id>
+      <id>central-repo</id>
+      <username>admin</username>
+      <password>password</password>
+    </server>
+    <server>
+      <id>nexus-group-repo</id>
       <username>admin</username>
       <password>password</password>
     </server>
@@ -28,11 +28,12 @@
 
   <mirrors>
     <mirror>
-      <id>${CENTRAL-REPO}</id>
-      <name>${CENTRAL-REPO}</name>
-      <url>http://http://3.110.177.85:8081/repository/my/</url>
+      <id>central-repo</id>
+      <name>central-repo</name>
+      <url>http://3.110.177.85:8081/repository/my</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
 
 </settings>
+ 
